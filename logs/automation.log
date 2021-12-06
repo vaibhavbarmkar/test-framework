@@ -1,0 +1,36 @@
+2021-12-06 23:39:34,234 INFO [conftest.py:61] ===============
+2021-12-06 23:39:34,234 INFO [conftest.py:62] Starting test casetest_repo_list_pass
+2021-12-06 23:39:34,235 INFO [conftest.py:18] inside driver_get fixture
+2021-12-06 23:39:34,235 INFO [driver.py:18] Creating session for chrome browser
+2021-12-06 23:39:34,236 INFO [logger.py:26] 
+
+2021-12-06 23:39:34,236 INFO [logger.py:26] ====== WebDriver manager ======
+2021-12-06 23:39:34,261 INFO [logger.py:26] Current google-chrome version is 87.0.4280
+2021-12-06 23:39:34,261 INFO [logger.py:26] Get LATEST chromedriver version for 87.0.4280 google-chrome
+2021-12-06 23:39:34,436 INFO [logger.py:26] Driver [C:\Users\User\.wdm\drivers\chromedriver\win32\87.0.4280.88\chromedriver.exe] found in cache
+2021-12-06 23:39:39,895 INFO [basetest.py:12] Starting setup class
+2021-12-06 23:39:39,896 INFO [basetest.py:16] Completed setup class
+2021-12-06 23:39:39,896 INFO [navigator.py:14] Navigating to https://github.com/django
+2021-12-06 23:39:41,770 INFO [navigator.py:16] Navigated to https://github.com/django
+2021-12-06 23:39:41,771 INFO [navigator.py:20] Navigating to module repositories
+2021-12-06 23:39:41,772 INFO [navigator.py:22] Navigating to module selector is li[data-tab-item='org-header-repositories-tab'] a
+2021-12-06 23:39:43,316 INFO [navigator.py:26] Navigated to module repositories
+2021-12-06 23:39:44,588 INFO [apibase.py:95] Making GET request using url https://api.github.com/orgs/django/repos, header {'Accpet': 'application/vnd.github.v3+json'} and param {}
+2021-12-06 23:39:45,767 INFO [helper_functions.py:8] Starting function compare_jsons
+2021-12-06 23:39:45,771 INFO [helper_functions.py:11] Two Json Objects are equal
+2021-12-06 23:39:45,772 INFO [helper_functions.py:12] Completed Json object comparision
+2021-12-06 23:39:45,772 INFO [conftest.py:66] Completing test casetest_repo_list_pass
+2021-12-06 23:39:45,773 INFO [conftest.py:67] ===============
+2021-12-06 23:39:45,774 INFO [conftest.py:61] ===============
+2021-12-06 23:39:45,774 INFO [conftest.py:62] Starting test casetest_repo_list_fail
+2021-12-06 23:39:45,775 INFO [navigator.py:14] Navigating to https://github.com/django
+2021-12-06 23:39:46,188 INFO [navigator.py:16] Navigated to https://github.com/django
+2021-12-06 23:39:46,189 INFO [navigator.py:20] Navigating to module repositories
+2021-12-06 23:39:46,190 INFO [navigator.py:22] Navigating to module selector is li[data-tab-item='org-header-repositories-tab'] a
+2021-12-06 23:39:46,631 INFO [navigator.py:26] Navigated to module repositories
+2021-12-06 23:39:47,900 INFO [apibase.py:95] Making GET request using url https://api.github.com/orgs/django/repos, header {'Accpet': 'application/vnd.github.v3+json'} and param {}
+2021-12-06 23:39:47,968 INFO [helper_functions.py:8] Starting function compare_jsons
+2021-12-06 23:39:47,972 INFO [helper_functions.py:11] Two Json Objects are equal
+2021-12-06 23:39:47,972 INFO [helper_functions.py:12] Completed Json object comparision
+2021-12-06 23:39:48,320 INFO [conftest.py:66] Completing test casetest_repo_list_fail
+2021-12-06 23:39:48,321 INFO [conftest.py:67] ===============

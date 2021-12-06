@@ -13,6 +13,7 @@ deepdiff = "*"
 pytest-parallel = "*"
 requests = "*"
 pylint = "*"
+atomicwrites = "*"
 
 [dev-packages]
 
